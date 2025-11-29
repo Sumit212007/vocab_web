@@ -60,19 +60,16 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        gap: 8px;
+        gap: 10px;
     }
     .score {
         flex: 1;
         height: 70px;
-        font-size: 14px;
-        width: auto;
-        margin-top: 0;
+        font-size: 15px;
     }
     .reset-score {
         flex: 1;
         height: 70px;
-        margin-top: 0;
     }
     .reset-score button {
         width: 100%;
@@ -182,11 +179,10 @@ body {
 
 
 .score-box {
-    position: static;
-    width: 100%;
-    margin-bottom: 20px;
-    display: flex;
+    position: fixed;
     right: 20px;
+    top: 90px;
+    display: flex;
     flex-direction: column;
     gap: 10px; 
 }
@@ -201,7 +197,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    width: 100%;
+    width: 150px;
     height: 80px;
     text-align: center;
 }
@@ -212,12 +208,12 @@ body {
 
 .wrong-score {
     border-left: 6px solid #ff4d4d;
-    margin-top: 0;
+    margin-top: 30px;
 }
 
 .reset-score {
     border-left: 6px solid #f7c44e;
-    margin-top: 0;
+    margin-top: 30px;
 }
 
 .reset-score {
@@ -231,7 +227,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    width: 100%;
+    width: 150px;
     height: 85px;
     text-align: center;
 }
@@ -239,7 +235,7 @@ body {
 .reset-score button {
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 150px;
     height: 50px;
     border: none;
     background: #f7c44e;
