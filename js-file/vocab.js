@@ -53,6 +53,54 @@ const vocabulary = [
     word: "Castigate",
     correct: "Chide",
     options: ["Praise", "Chide", "Commend", "Applaud"]
+  },{
+    word: "Vituperate",
+    correct: "Commend",
+    options: ["Praise", "Chide", "Commend", "Applaud"]
+  },{
+    word: "Berate",
+    correct: "Lambaste",
+    options: ["Glorify", "Lambaste", "Eulogise", "Laud"]
+  },{
+    word: "Inveterate",
+    correct: "Chronic",
+    options: ["Temporary", "Chronic", "Brief", "Short-lived"]
+  },{
+    word: "Ingrained",
+    correct: "Entrenched",
+    options: ["Superficial", "Entrenched", "Shallow", "Surface-level"]
+  },{
+    word: "Sporadic",
+    correct: "Irregular",
+    options: ["Continuous", "Irregular", "Regular", "Steady"]
+  },{
+    word: "Intermittent",
+    correct: "Occasional",
+    options: ["Frequent", "Occasional", "Constant", "Regular"]
+  },{
+    word: "Procrastinate",
+    correct: "Delay",
+    options: ["Hasten", "Delay", "Expedite", "Accelerate"]
+  },{
+    word: "Contumacious",
+    correct: "Rebellious",
+    options: ["Obedient", "Rebellious", "Compliant", "Submissive"]
+  },{
+    word: "Refractory",
+    correct: "Unmanageable",
+    options: ["Manageable", "Unmanageable", "Controllable", "Docile"]
+  },{
+    word: "Tractable",
+    correct: "Manageable",
+    options: ["Manageable", "Unmanageable", "Controllable", "Docile"]
+  },{
+    word: "Deferential",
+    correct: "Respectful",
+    options: ["Disrespectful", "Respectful", "Rude", "Impolite"]
+  },{
+    word: "Subservient",
+    correct: "Obedient",
+    options: ["Refractory", "Obedient", "Rebellious", "Intractable"]
   }
 
 ];
